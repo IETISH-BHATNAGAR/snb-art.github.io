@@ -406,3 +406,52 @@ p.add {
     color: white;
     margin-top: 20%;
 }
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        font-size: 15px;
+        display: grid;
+        padding: 0% 0%;
+    }
+
+    li {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    button.btn {
+        border: 1px solid white;
+        border-radius: 17px;
+        margin: 0px 4px;
+        padding: 2px 5px;
+        font-size: 4px;
+        box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.75);
+    }
+
+    .right {
+        top: -5px;
+    }
+
+    .mid {
+        font-size: smaller;
+    }
+
+    .mid h2 {
+        font-size: smaller;
+    }
+
+    button.btn1 {
+        margin: 2px;
+        padding: 4px;
+        font-size: 5px;
+        border: 1px solid white;
+        box-shadow: 0px 2px 4px 0px rgb(255 255 255 / 75%);
+    }
+
+    .footer {
+        bottom: -28%;
+        font-size: 5px;
+    }
+
+}
