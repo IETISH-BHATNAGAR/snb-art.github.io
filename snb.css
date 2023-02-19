@@ -408,6 +408,7 @@ p.add {
 }
 
 @media only screen and (max-width: 600px) {
+
     .navigation {
         font-size: 15px;
         display: grid;
@@ -452,11 +453,13 @@ p.add {
     .footer {
         bottom: -28%;
         font-size: 5px;
+        color: grey;
     }
 
     /* -----------------------------------------------Get-In-Touch */
     .container {
         margin-top: 0px;
+        height: 75%;
     }
 
     .container h1 {
@@ -467,10 +470,11 @@ p.add {
 
     .content {
         display: grid;
+        height: 65%;
     }
 
     .left-box h2 {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 300;
         letter-spacing: 2px;
     }
@@ -481,11 +485,17 @@ p.add {
 
     input {
         font-size: 8px;
+        font-family: none;
+    }
+
+    textarea {
+        font-size: 8px;
+        font-family: none;
     }
 
     button.btn2 {
         padding: 4px;
-        font-size: 5px;
+        font-size: 10px;
         border: 1px solid white;
         box-shadow: 0px 2px 4px 0px rgb(255 255 255 / 75%)
     }
@@ -505,6 +515,10 @@ p.add {
         font-size: 12px;
         font-weight: 300;
         letter-spacing: 2px;
+    }
+
+    .right-box div {
+        padding: 2px;
     }
 
     .fa-tty {
@@ -527,16 +541,91 @@ p.add {
         border-radius: none;
         font-size: 15px;
     }
+
     div.rphone {
         font-size: 9px;
     }
+
     div.remail {
         font-size: 10px;
         letter-spacing: 1px;
     }
+
     p.add {
         font-size: 10px;
         word-spacing: 1px;
         letter-spacing: 0px;
     }
+
+    .about-us-container {
+        height: 55%;
+        margin-top: 0px;
+    }
+
+    .about-us-container h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+
+    .about-us-content {
+        display: grid;
+        height: 65%;
+    }
+
+    .au-left-box h2 {
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+
+    .au-left-box p {
+        font-size: 12px;
+        padding: 13px;
+    }
+    .au-right-box{
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.397), rgba(175, 175, 175, 0.397));
+        justify-content: center;
+        align-content: center;
+        border-radius: 7px;
+        height: 85%;
+    }
+
+    .fa-fingerprint {
+        border: 1px solid white;
+        padding: 5px 4px;
+        border-radius: 7px;
+        font-size: 16px;
+    }
+
+    .fa-hand-fist {
+        border: 1px solid white;
+        padding: 4px 6px;
+        border-radius: 7px;
+        font-size: 18px;
+    }
+    .fa-eye {
+        border: 1px solid white;
+        padding: 5px 4px;
+        border-radius: 7px;
+        font-size: 16px;
+    }
+    .fa-scale-balanced {
+        border: 1px solid white;
+        padding: 5px 3px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+    .au-right-box h2{
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    .au-right-box p{
+        font-size: 12px;
+    }
+    .join h1{
+        font-size: 16px;
+    }
+    
 }
