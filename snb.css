@@ -128,7 +128,7 @@ button.btn1 {
 
 /* -------------------------------------------------------------FOOTER- */
 
-footer {
+.footer {
     font-size: large;
     font-weight: 2px;
     color: grey;
@@ -558,7 +558,7 @@ p.add {
     }
 
     .about-us-container {
-        height: 55%;
+        height: 37%;
         margin-top: 0px;
     }
 
